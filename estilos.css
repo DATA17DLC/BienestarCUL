@@ -399,38 +399,47 @@ body {
 /* Responsive Styles */
 @media (max-width: 600px) {
 
-    .interfazingresar{
-        width: 440px;
-        height: 250px;
-    }
-
-    .imglogin,
-    .video-container,
-    .infovideo{
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-        width: 400px;
-    }
-
-    .infovideo{
-        margin-top: -100px;
-        display: flex;
-    }
-
-    .punto{
-        margin-top: -50px;
-    }
-
+    .titulofuncion,
+    .titulogin,
+    .interfazlogin,
+    .infointerfaz,
     .mensaje-error,
-    .infointerfaz {
-        margin: 10px;
+    .infovideo {
         text-align: center;
+        margin: auto;
+    }
+
+    .login,
+    .errorusuario,
+    .interfazingresar,
+    .video-container {
+        float: none;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .interfazingresar {
+        width: 90%;
+        height: auto;
+    }
+
+    .video-container {
+        height: auto;
+    }
+
+    .infovideo {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .punto {
+        margin-top: 0;
     }
 
     .pie-pagina .grupo-1 {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     .pie-pagina .grupo-1 .box {
@@ -439,7 +448,7 @@ body {
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
-    .pie-pagina .grupo-1 .box .red-social{
+    .pie-pagina .grupo-1 .box .red-social {
         justify-content: center;
         margin: auto;
         align-items: center;
