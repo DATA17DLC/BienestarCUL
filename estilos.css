@@ -60,6 +60,7 @@ body {
 
 /* Estilos para dispositivos pequeños (móviles) */
 @media (max-width: 600px) {
+
     .carousel-inner img,
     .carousel-inner iframe {
         height: 500px;
@@ -86,6 +87,7 @@ body {
 
 /* Estilos para tablets */
 @media (min-width: 601px) and (max-width: 1024px) {
+
     .carousel-inner img,
     .carousel-inner iframe {
         height: 400px;
@@ -318,6 +320,15 @@ body {
 /*finaliza el css de index2*/
 
 /*pertenece a index3*/
+.titulofuncion,
+.titulogin,
+.interfazlogin,
+.mensaje-error,
+.infointerfaz,
+.infovideo{
+    font-family: 'Times New Roman', Times, serif;
+} 
+
 .titulofuncion {
     display: flex;
     margin: auto;
@@ -488,7 +499,7 @@ body.contactenos {
 form {
     width: 100%;
     color: #fff;
-    background: linear-gradient(45deg, rgb(190, 106, 27), rgb(82, 82, 201), rgb(139, 105, 105), rgb(0, 0, 0));
+    background: transparent;
     background-size: 400% 400%;
     position: relative;
     animation: cambiar 10s ease-in-out infinite;
