@@ -60,16 +60,15 @@ body {
 
 /* Estilos para dispositivos pequeños (móviles) */
 @media (max-width: 600px) {
-
     .carousel-inner img,
     .carousel-inner iframe {
         height: 500px;
-        width: 450px;
+        width: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-left: 15px;
+        margin-left: 25px;
     }
 }
 
@@ -87,7 +86,6 @@ body {
 
 /* Estilos para tablets */
 @media (min-width: 601px) and (max-width: 1024px) {
-
     .carousel-inner img,
     .carousel-inner iframe {
         height: 400px;
