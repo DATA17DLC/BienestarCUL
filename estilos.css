@@ -11,6 +11,10 @@ body {
     height: 100%;
 }
 
+.navbar{
+    margin: auto;
+}
+
 /*responsive para el navbar*/
 @media (max-width: 991px) {
     .navbar-collapse {
@@ -25,74 +29,54 @@ body {
     }
 }
 
-/*estilos y tamaños para los elementos en el carrusel*/
-.carousel-item {
-    width: 900px;
-    height: 500px;
-    margin: auto;
-}
-
-.carousel-inner {
-    width: 900px;
-    height: 500px;
-    margin: auto;
-}
-
-/* Estilos generales */
-.carousel-inner img,
-.carousel-inner iframe {
-    width: 100%;
-    height: auto;
+.carousel-inner{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* Estilos para dispositivos pequeños (móviles) */
 @media (max-width: 600px) {
     .carousel-item iframe {
-        height: 200px;
-        width: 450px;
+        height: 200px; /* Ajustar altura del iframe */
+        width: calc(100% - 30px); /* Restar márgenes laterales */
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-left: 15px;
+        margin: 0 auto; /* Centrar horizontalmente */
     }
-}
-
-/* Estilos para dispositivos pequeños (móviles) */
-@media (max-width: 600px) {
 
     .carousel-inner img,
     .carousel-inner iframe {
-        height: 500px;
-        width: 300px;
+        height: 400px; /* Ajustar altura automáticamente */
+        width: calc(100% - 50px); /* Restar márgenes laterales */
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-left: 25px;
+        margin: 0 auto; /* Centrar horizontalmente */
     }
 }
 
 /* Estilos para tablets */
 @media (min-width: 601px) and (max-width: 1024px) {
     .carousel-item iframe {
-        height: 400px;
-        width: 500px;
-        margin-left: 55px;
+        display: flex;
+        height: 300px; /* Ajustar altura del iframe */
+        width: calc(100% - 60px); /* Restar márgenes laterales */
+        margin: 0 auto; /* Centrar horizontalmente */
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-}
-
-/* Estilos para tablets */
-@media (min-width: 601px) and (max-width: 1024px) {
 
     .carousel-inner img,
     .carousel-inner iframe {
-        height: 400px;
+        height: 400px; /* Ajustar altura automáticamente */
         width: 500px;
-        margin-left: 55px;
+        margin: 0 auto; /* Centrar horizontalmente */
+        display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -102,9 +86,27 @@ body {
 /* Estilos para laptops y desktops */
 @media (min-width: 1025px) {
     .carousel-item iframe {
-        height: 500px;
+        display: flex;
+        height: 400px; /* Ajustar altura del iframe */
+        width: 200px;
+        margin: 0 auto; /* Centrar horizontalmente */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .carousel-inner img,
+    .carousel-inner iframe {
+        height: 400px;
+        width: 600px;
+        margin: 0 auto; /* Centrar horizontalmente */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
+
 
 /* Estilo para los botones del carrusel */
 .carousel-control-prev-icon,
@@ -119,6 +121,7 @@ body {
 
 .carousel-control-prev,
 .carousel-control-next {
+    margin: auto;
     width: 50px;
     /* Asegurar el tamaño del área de clic */
 }
