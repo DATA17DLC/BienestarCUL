@@ -3,6 +3,7 @@
 body {
     background-image: url(https://img.freepik.com/vector-gratis/fondo-onda-blanca-suave_52683-55288.jpg?w=740&t=st=1716405063~exp=1716405663~hmac=d79f50ccf1d6a95435a606e385416e02220f596a1912fa6a0ff1adaca2ad5343);
     background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -548,7 +549,7 @@ form {
 }
 
 label {
-    color: #283629;
+    color: #ffffff;
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -561,7 +562,7 @@ textarea {
     margin-bottom: 20px;
     background-color: #E0FFFF;
     border: 2px solid #F0FAF1;
-    color: #283629;
+    color: #ffffff;
     outline: none;
 }
 
