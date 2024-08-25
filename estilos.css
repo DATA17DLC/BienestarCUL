@@ -502,7 +502,7 @@ body.contactenos {
 
 form {
     width: 100%;
-    color: #fff;
+    color: #000000;
     background: transparent;
     background-size: 400% 400%;
     position: relative;
@@ -562,7 +562,7 @@ textarea {
     margin-bottom: 20px;
     background-color: #E0FFFF;
     border: 2px solid #F0FAF1;
-    color: #ffffff;
+    color: #000000;
     outline: none;
 }
 
